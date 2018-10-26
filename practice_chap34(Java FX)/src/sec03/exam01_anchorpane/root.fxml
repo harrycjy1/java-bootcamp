@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+		<!--SceneBuilder를 이용하면 이전 버전을 고려하여 네임스페이스가 정해진다. 불필요한 부분은 삭제해도 됨
+		 	AnchorPane컨테이너를 사용할때는 SceneBuilder를 사용하는것을 추천 좌표값으로 설정하기 때문에 
+			위지윅방식이 편하다 위지윅(mysiwyg)프로그램에서 처리하는 문서의 모양이 영상표시장치에 보이는대로 출려되는 시스템 -->
+
+<AnchorPane prefHeight="150.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="40.0" layoutY="36.0" text="아이디" />
+      <Label layoutX="40.0" layoutY="72.0" text="패스워드" />
+      <TextField layoutX="102.0" layoutY="32.0" />
+	  <!-- 패스워드 텍스트필드 컨트롤을 사용하면 입력한 값이 노출되지 않는다. -->
+      <PasswordField layoutX="102.0" layoutY="68.0" />
+      <Button layoutX="49.0" layoutY="104.0" mnemonicParsing="false" text="로그인" />
+      <Button layoutX="130.0" layoutY="104.0" mnemonicParsing="false" text="취소" />
+      <Button layoutX="195.0" layoutY="104.0" mnemonicParsing="false" text="회원가입" />
+   </children>
+</AnchorPane>

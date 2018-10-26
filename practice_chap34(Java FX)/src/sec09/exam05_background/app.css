@@ -1,0 +1,40 @@
+
+#vbox1 {
+	/*배경색을 rgba로 줬다 rgb가 0이면 검정이지만 투명도를 0으로 주면 아무색도 나타나지 않는다.
+	 * 1로 주면 검정색 나옴
+	 */
+	-fx-background-color: rgba(0.0,0.0,0.0,1.0); 
+}
+
+/*id vbox2인 스타일 적용 */
+#vbox2 {
+	/*배경색을 선형그라디언트 형식으로 왼쪽에서 오른쪽ㅇ으로 검정색에서 흰색으로 변경되게 하였다. */
+	-fx-background-color: linear-gradient(to right, #000000,#ffffff);
+	
+}
+
+#vbox3 {
+	/*배경색이 원형그라디언트 형식으로 중심점에서 50%까지 영역을 잡되 흰색에서 검정색으로 변화시키게 하였다. */
+	-fx-background-color: radial-gradient(center 50.0% 50.0%,radius 50.0%,white 20.0%, black);
+	
+}
+
+#vbox4 {
+	/*icon.gif는 하나의 타일인데 기본적으로 반복하여 나타내여준다. */
+	-fx-background-image: url("images/icon.gif");
+	
+}
+
+#vbox5 {
+	-fx-background-image: url("images/icon.gif");
+	-fx-background-repeat: no-repeat;
+	
+	-fx-border-color: blue;
+}
+
+#vbox6 {
+	-fx-background-image: url("images/icon.gif");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-border-color: blue;
+}

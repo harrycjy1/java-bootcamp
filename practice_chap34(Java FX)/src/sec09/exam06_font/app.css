@@ -1,0 +1,11 @@
+#root {
+	/* padding은 fxml css둘다에서 적용가능*/
+	-fx-padding: 10;
+}
+
+#welcome-text {
+	-fx-font: 35px;
+	-fx-font-family: "Arial BLACK";
+	-fx-font-weight: bold;
+	-fx-text-fill: linear-gradient(to bottom, blue, white); 
+}

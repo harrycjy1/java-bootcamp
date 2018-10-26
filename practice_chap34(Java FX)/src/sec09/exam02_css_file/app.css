@@ -1,0 +1,17 @@
+
+/*전체 Label을 선택하여 적용함*/
+
+
+Label {
+	-fx-padding: 5;
+}
+
+#Lblid{
+	-fx-background-color: black;
+	-fx-text-fill: yellow;
+}
+
+.LblClass{
+	-fx-background-color: blue;
+	-fx-text-fill: white;
+}
